@@ -53,6 +53,7 @@ export type Database = {
           conclusions: string | null
           created_at: string | null
           cycles_count: number | null
+          deleted_at: string | null
           description: string | null
           id: string
           normal_time: number | null
@@ -71,6 +72,7 @@ export type Database = {
           conclusions?: string | null
           created_at?: string | null
           cycles_count?: number | null
+          deleted_at?: string | null
           description?: string | null
           id?: string
           normal_time?: number | null
@@ -89,6 +91,7 @@ export type Database = {
           conclusions?: string | null
           created_at?: string | null
           cycles_count?: number | null
+          deleted_at?: string | null
           description?: string | null
           id?: string
           normal_time?: number | null
